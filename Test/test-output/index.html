@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\suraj.a\AppData\Local\Temp\testng-eclipse--396655839\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="enterAddress1">enterAddress1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="enterAddress2">enterAddress2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="enterCity">enterCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="enterCount">enterCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="enterEmailId">enterEmailId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="enterFirstName">enterFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="enterLastName">enterLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="enterNumber">enterNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="enterPassword">enterPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="enterZIP">enterZIP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="launchBrowser">launchBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="selectBrand">selectBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="selectCheck">selectCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="selectGender">selectGender</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="selectHaveYouBought">selectHaveYouBought</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="selectModel">selectModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="selectOrder">selectOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="mobileWorld.Order" class="method navigator-link" hash-for-method="selectState">selectState</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mobileWorld.Order</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterAddress1">
+                  </a> <!-- enterAddress1 -->
+                  <span class="method-name">enterAddress1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterAddress2">
+                  </a> <!-- enterAddress2 -->
+                  <span class="method-name">enterAddress2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterCity">
+                  </a> <!-- enterCity -->
+                  <span class="method-name">enterCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterCount">
+                  </a> <!-- enterCount -->
+                  <span class="method-name">enterCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterEmailId">
+                  </a> <!-- enterEmailId -->
+                  <span class="method-name">enterEmailId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterFirstName">
+                  </a> <!-- enterFirstName -->
+                  <span class="method-name">enterFirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterLastName">
+                  </a> <!-- enterLastName -->
+                  <span class="method-name">enterLastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterNumber">
+                  </a> <!-- enterNumber -->
+                  <span class="method-name">enterNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPassword">
+                  </a> <!-- enterPassword -->
+                  <span class="method-name">enterPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterZIP">
+                  </a> <!-- enterZIP -->
+                  <span class="method-name">enterZIP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchBrowser">
+                  </a> <!-- launchBrowser -->
+                  <span class="method-name">launchBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectBrand">
+                  </a> <!-- selectBrand -->
+                  <span class="method-name">selectBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCheck">
+                  </a> <!-- selectCheck -->
+                  <span class="method-name">selectCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectGender">
+                  </a> <!-- selectGender -->
+                  <span class="method-name">selectGender</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectHaveYouBought">
+                  </a> <!-- selectHaveYouBought -->
+                  <span class="method-name">selectHaveYouBought</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectModel">
+                  </a> <!-- selectModel -->
+                  <span class="method-name">selectModel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectOrder">
+                  </a> <!-- selectOrder -->
+                  <span class="method-name">selectOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectState">
+                  </a> <!-- selectState -->
+                  <span class="method-name">selectState</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\suraj.a\AppData\Local\Temp\testng-eclipse--396655839\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;mobileWorld.Order&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'launchBrowser')
+data.setCell(0, 2, 'mobileWorld.Order')
+data.setCell(0, 3, 3857);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selectOrder')
+data.setCell(1, 2, 'mobileWorld.Order')
+data.setCell(1, 3, 2763);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectCheck')
+data.setCell(2, 2, 'mobileWorld.Order')
+data.setCell(2, 3, 228);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'selectBrand')
+data.setCell(3, 2, 'mobileWorld.Order')
+data.setCell(3, 3, 182);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'enterFirstName')
+data.setCell(4, 2, 'mobileWorld.Order')
+data.setCell(4, 3, 179);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'selectGender')
+data.setCell(5, 2, 'mobileWorld.Order')
+data.setCell(5, 3, 150);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'enterNumber')
+data.setCell(6, 2, 'mobileWorld.Order')
+data.setCell(6, 3, 131);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'enterZIP')
+data.setCell(7, 2, 'mobileWorld.Order')
+data.setCell(7, 3, 124);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'enterPassword')
+data.setCell(8, 2, 'mobileWorld.Order')
+data.setCell(8, 3, 124);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'selectState')
+data.setCell(9, 2, 'mobileWorld.Order')
+data.setCell(9, 3, 122);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'enterLastName')
+data.setCell(10, 2, 'mobileWorld.Order')
+data.setCell(10, 3, 121);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'enterAddress1')
+data.setCell(11, 2, 'mobileWorld.Order')
+data.setCell(11, 3, 118);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'selectHaveYouBought')
+data.setCell(12, 2, 'mobileWorld.Order')
+data.setCell(12, 3, 113);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'enterAddress2')
+data.setCell(13, 2, 'mobileWorld.Order')
+data.setCell(13, 3, 91);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'enterCity')
+data.setCell(14, 2, 'mobileWorld.Order')
+data.setCell(14, 3, 88);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'enterEmailId')
+data.setCell(15, 2, 'mobileWorld.Order')
+data.setCell(15, 3, 82);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'selectModel')
+data.setCell(16, 2, 'mobileWorld.Order')
+data.setCell(16, 3, 61);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'enterCount')
+data.setCell(17, 2, 'mobileWorld.Order')
+data.setCell(17, 3, 60);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">mobileWorld.Order</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterFirstName</span>
+                <span class="method-start">3869 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterLastName</span>
+                <span class="method-start">4049 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterEmailId</span>
+                <span class="method-start">4172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterPassword</span>
+                <span class="method-start">4256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectGender</span>
+                <span class="method-start">4384 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterNumber</span>
+                <span class="method-start">4537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterAddress1</span>
+                <span class="method-start">4669 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterAddress2</span>
+                <span class="method-start">4788 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterCity</span>
+                <span class="method-start">4881 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectState</span>
+                <span class="method-start">4971 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterZIP</span>
+                <span class="method-start">5096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectBrand</span>
+                <span class="method-start">5221 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectModel</span>
+                <span class="method-start">5404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterCount</span>
+                <span class="method-start">5466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectHaveYouBought</span>
+                <span class="method-start">5527 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectCheck</span>
+                <span class="method-start">5641 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectOrder</span>
+                <span class="method-start">5871 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
